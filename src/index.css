@@ -12,3 +12,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'gt-walsheim-light';
+  src: url('./fonts/gt-walsheim-light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gt-walsheim-bold';
+  src: url('./fonts/gt-walsheim-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'MillerBanner-SemiboldItalic';
+  src: url('./fonts/MillerBanner-SemiboldItalic.otf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}

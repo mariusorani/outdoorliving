@@ -1,0 +1,32 @@
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #008c3c;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'gt-walsheim-light';
+}
+
+li {
+    list-style: none;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #fff;
+    color: #008c3c;
+    transition: .2s ease;
+    transform: scale(3.5);
+}
